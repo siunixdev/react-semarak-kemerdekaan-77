@@ -172,7 +172,7 @@ function App() {
                       <img
                         src={image.url}
                         alt={image.title}
-                        className='h-44 lg:h-52 w-96 md:w-52 lg:w-56 lg:rounded-md object-cover'
+                        className='h-44 lg:h-52 w-96 md:w-52 lg:w-56 lg:rounded-md object-cover hover:cursor-zoom-in'
                         onClick={() => {
                           setPhoto(i)
                           setOpen(true)
@@ -186,7 +186,7 @@ function App() {
                 <p className='text-white mb-8'>Silahkan Download Seluruh file kegiatan pada tombol dibawah</p>
                 <div className='flex flex-col lg:flex-row'>
                   <a href="https://drive.google.com/drive/folders/1HsSdVZTv0d0Dzh8_ffwjwxV1x2sYMj38?usp=sharing" target="_blank" rel="noreferrer"
-                    className='bg-white p-4 rounded-full px-10 border-2 border-white text-red-600 hover:bg-red-600 hover:shadow-lg hover:text-white transition-all delay-75 mr-2 mb-2'
+                    className='hover:bg-white p-4 rounded-full px-10 border-2 hover:border-white hover:text-red-600 bg-red-600 hover:shadow-lg text-white transition-all delay-75 mr-2 mb-2'
                   ><FontAwesomeIcon icon={faHardDrive} className='mr-4' /> Lihat di Google drive</a>
                   <a href="https://doc-4o-34-drive-data-export.googleusercontent.com/download/ifla1t2e1i9jv4vmgfvdpjnte3o4s0d5/alh0dphrvi072vu4d38bpq7ojpesvi2j/1661656500000/0338ba11-0a7b-4dff-9ed7-9597e4190677/108980610338026681203/ADt3v-ORXsxN7qVtHX0Xbzojhmx7b7HOtMO0MsY0V-YwLGFlf_Iy9u3_sYBaUTLpM8Ec-yJqMgkBFDbQamh_yx__oSuXrBhdq5bHkOQLLfVGL0dessdtcqWuN0U4WUqztSKKEz3Bz2Vl6iMpjMk2M6DUcRIdgsKjnz2DRI84lazcO0N9BcW7Y6z9c4uBHHf8lAtR-Cp1mabVnp9Gm-kc-ckkSGOj_br_5l3foqH7tdyiS1Cb2vOQM-KvBfcvTWEXRW15x21A25ze_sMrTDSkoLr0dnVg2NsFpEHKiv9vIJPyMjXMtL4lDRxfxik_OuFP9C39J7qlfgvd?authuser=0&nonce=h02dl6hfscf84&user=108980610338026681203&hash=oacgf1qa7s62g0sq0311c77oj2sqfk29" rel="noreferrer"
                     className='bg-white p-4 rounded-full px-10 border-2 border-white text-red-600 hover:bg-red-600 hover:shadow-lg hover:text-white transition-all delay-75 mr-2 mb-2'
