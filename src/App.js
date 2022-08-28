@@ -172,7 +172,7 @@ function App() {
                       <img
                         src={image.url}
                         alt={image.title}
-                        className='h-44 lg:h-52 w-96 md:w-52 lg:w-56 lg:rounded-md object-cover object-top hover:cursor-zoom-in'
+                        className='h-44 lg:h-52 w-96 md:w-52 lg:w-56 lg:rounded-md object-cover hover:cursor-zoom-in'
                         onClick={() => {
                           setPhoto(i)
                           setOpen(true)
