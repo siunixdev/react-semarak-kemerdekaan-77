@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCloudArrowDown } from '@fortawesome/free-solid-svg-icons'
+import { faCloudArrowDown, faHardDrive } from '@fortawesome/free-solid-svg-icons'
 // import Lightbox from 'lightbox-react';
 // import 'lightbox-react/style.css';
 
@@ -184,9 +184,14 @@ function App() {
               </Slider>
               <div className='mt-4 text-center lg:text-left'>
                 <p className='text-white mb-8'>Silahkan Download Seluruh file kegiatan pada tombol dibawah</p>
-                <a href="https://doc-4o-34-drive-data-export.googleusercontent.com/download/ifla1t2e1i9jv4vmgfvdpjnte3o4s0d5/alh0dphrvi072vu4d38bpq7ojpesvi2j/1661656500000/0338ba11-0a7b-4dff-9ed7-9597e4190677/108980610338026681203/ADt3v-ORXsxN7qVtHX0Xbzojhmx7b7HOtMO0MsY0V-YwLGFlf_Iy9u3_sYBaUTLpM8Ec-yJqMgkBFDbQamh_yx__oSuXrBhdq5bHkOQLLfVGL0dessdtcqWuN0U4WUqztSKKEz3Bz2Vl6iMpjMk2M6DUcRIdgsKjnz2DRI84lazcO0N9BcW7Y6z9c4uBHHf8lAtR-Cp1mabVnp9Gm-kc-ckkSGOj_br_5l3foqH7tdyiS1Cb2vOQM-KvBfcvTWEXRW15x21A25ze_sMrTDSkoLr0dnVg2NsFpEHKiv9vIJPyMjXMtL4lDRxfxik_OuFP9C39J7qlfgvd?authuser=0&nonce=h02dl6hfscf84&user=108980610338026681203&hash=oacgf1qa7s62g0sq0311c77oj2sqfk29" rel="noreferrer"
-                  className='bg-white p-4 rounded-full px-10 border-2 border-white text-red-600 hover:bg-red-600 hover:shadow-lg hover:text-white transition-all delay-75'
-                ><FontAwesomeIcon icon={faCloudArrowDown} className='mr-4' /> Download Gallery</a>
+                <div className='flex flex-col lg:flex-row'>
+                  <a href="https://drive.google.com/file/d/1OfmbhJZfztBfbsYSqC0g_uSlkWPPcTam/view?usp=sharing" target="_blank" rel="noreferrer"
+                    className='bg-white p-4 rounded-full px-10 border-2 border-white text-red-600 hover:bg-red-600 hover:shadow-lg hover:text-white transition-all delay-75 mr-2 mb-2'
+                  ><FontAwesomeIcon icon={faHardDrive} className='mr-4' /> Lihat di Google drive</a>
+                  <a href="https://doc-4o-34-drive-data-export.googleusercontent.com/download/ifla1t2e1i9jv4vmgfvdpjnte3o4s0d5/alh0dphrvi072vu4d38bpq7ojpesvi2j/1661656500000/0338ba11-0a7b-4dff-9ed7-9597e4190677/108980610338026681203/ADt3v-ORXsxN7qVtHX0Xbzojhmx7b7HOtMO0MsY0V-YwLGFlf_Iy9u3_sYBaUTLpM8Ec-yJqMgkBFDbQamh_yx__oSuXrBhdq5bHkOQLLfVGL0dessdtcqWuN0U4WUqztSKKEz3Bz2Vl6iMpjMk2M6DUcRIdgsKjnz2DRI84lazcO0N9BcW7Y6z9c4uBHHf8lAtR-Cp1mabVnp9Gm-kc-ckkSGOj_br_5l3foqH7tdyiS1Cb2vOQM-KvBfcvTWEXRW15x21A25ze_sMrTDSkoLr0dnVg2NsFpEHKiv9vIJPyMjXMtL4lDRxfxik_OuFP9C39J7qlfgvd?authuser=0&nonce=h02dl6hfscf84&user=108980610338026681203&hash=oacgf1qa7s62g0sq0311c77oj2sqfk29" rel="noreferrer"
+                    className='bg-white p-4 rounded-full px-10 border-2 border-white text-red-600 hover:bg-red-600 hover:shadow-lg hover:text-white transition-all delay-75 mr-2 mb-2'
+                  ><FontAwesomeIcon icon={faCloudArrowDown} className='mr-4' /> Download Gallery</a>
+                </div>
               </div>
             </div>
           </div>
